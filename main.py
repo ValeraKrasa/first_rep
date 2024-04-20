@@ -7,6 +7,6 @@ def add_numbers(num1, num2):
     return result
 
 
-
-
 print(f'Result {add_numbers()}')
+
+print('good bye')

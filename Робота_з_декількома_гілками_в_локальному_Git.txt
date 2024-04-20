@@ -1,0 +1,27 @@
+		Робота з різними гілками 
+		
+Для перевірки на якій гілці працюємо - набираємо
+	git branch
+	
+	вивод *main якщо є тільки одна основна гілка
+	
+Для створення нової гілки набираємо
+	git branch button
+		button - назва нової гілки
+		
+Для переключення з гілки main на нову гілку button набираємо 
+	git checkout button
+		button - назва гілки на яку перемикаємося
+
+Вносимо зміни в файл в новій гілці button і робимо 
+	git add .
+	git commit -m 'add_new_button'
+	
+Для злиття гілки new з main набираємо
+	git checkout main
+	git merge button (об'єднання гілок)
+	git push origin main
+
+Для видалення гілки набираємо
+	git branch -d new
+	
